@@ -1,5 +1,5 @@
 $TTL 1D
-@	IN SOA	first.namedtest.com  rname.invalid. (
+@	IN SOA	first.namedtest.com.  rname.invalid. (
 					0	; serial
 					1D	; refresh
 					1H	; retry
@@ -9,4 +9,5 @@ $TTL 1D
 	A	127.0.0.1
 	AAAA	::1
 
-first.namedtest.com IN A 192.168.0.10
+@	IN	A	192.168.0.0
+first.namedtest.com. IN A 192.168.0.10
